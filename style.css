@@ -1,0 +1,164 @@
+/* Style navigation bar */
+nav {
+    background-color: #1AACAC;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+nav li {
+    margin-right: 10px; /* Reduce the right margin to adjust spacing */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #362FD9;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+    nav ul {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+    }
+
+    nav li {
+        margin-right: 0; /* Remove right margin for stacked items */
+    }
+}
+
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the header */
+header {
+    background-color: #362FD9;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style section headings */
+h1, h2 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Style the main content area */
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+}
+
+/* Style the list items */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style navigation bar */
+nav {
+    background-color: #1AACAC;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #362FD9;
+}
+
+/* Center the image horizontally and vertically */
+img.centered-image {
+    display: block; /* Ensures that margin:auto works to center horizontally */
+    margin: 0 auto; /* Center horizontally */
+    max-width: 100%; /* Adjust the value to your desired maximum width */
+    max-height: 400px; /* Adjust the value to your desired maximum height */
+}
+
+img.avatar-image {
+    display: block; /* Ensures that margin:auto works to center horizontally */
+    margin: 0 auto; /* Center horizontally */
+    max-width: 100%; /* Adjust the value to your desired maximum width */
+    max-height: 100px; /* Adjust the value to your desired maximum height */
+}
+
+/* Style form elements */
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #362FD9;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #2E97A7;
+    color: #fff;
+}
+
+
+.team-members {
+    display: flex;
+    justify-content: space-between;
+}
+
+.member {
+    width: 30%; /* Ensures each member takes up roughly a third of the container width */
+    text-align: center; /* Centers the text and image within each member's box */
+}
+
+.member img {
+    max-width: 100%; /* Ensures the image doesn't overflow its container */
+    display: block; /* Makes sure it aligns correctly in the center */
+    margin: 0 auto; /* Centers the image horizontally */
+    padding-bottom: 15px; /* Adds some spacing between the image and the name/title */
+}
